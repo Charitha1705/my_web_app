@@ -2,7 +2,7 @@ pipeline {
 	agent any
 	environment {
 		DOCKERHUB_CRED=credentials('dockerhub')
-		IMAGE_NAME="1ms24mc020/Charitha@2003"
+		IMAGE_NAME="1ms24mc020/my_web_app:latest ."
 	}
 	
 	stages {
